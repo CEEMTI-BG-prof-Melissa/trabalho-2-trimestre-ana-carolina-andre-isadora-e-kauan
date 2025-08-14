@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Conceitos de Orientação a Objetos</title>
+    <link rel="stylesheet" href="trabalho.css" />
+</head>
+<body>
+    <header>
+        <h1>Principais conceitos de Orientação a Objetos</h1>
+        <nav class="navigation">
+            <a href="#obj">Objetos</a>
+            <a href="#class">Classe</a>
+            <a href="#encap">Encapsulamento</a>
+            <a href="#heranca">Herança</a>
+            <a href="#poli">Polimorfismo</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="obj">
+            <h2>Conceito de Objetos</h2>
+            <p>
+                Um objeto é uma instância concreta de uma classe que representa uma entidade no mundo real ou em um sistema computacional. 
+                Ele possui características (atributos) que definem seu estado e comportamentos (métodos) que definem suas ações. 
+                Cada objeto é único e pode interagir com outros objetos através da troca de mensagens ou chamadas de métodos.
+            </p>
+            <p>
+                Por exemplo, em um sistema bancário, uma conta corrente pode ser representada como um objeto, com atributos como número da conta, saldo e titular,
+                e métodos como depositar, sacar e consultar saldo.
+            </p>
+        </section>
+
+        <section id="class">
+            <h2>Conceito de Classe</h2>
+            <p>
+                Uma classe é um molde ou template que define um conjunto de propriedades e comportamentos comuns a um grupo de objetos. 
+                Ela descreve quais atributos os objetos terão e quais operações poderão executar. 
+                A classe serve como uma "fábrica" para criar múltiplos objetos com as mesmas características, porém com estados distintos.
+            </p>
+            <p>
+                A definição de uma classe inclui a declaração dos atributos (variáveis) que armazenam dados e os métodos (funções) que manipulam esses dados.
+                As classes permitem organizar o código de forma estruturada, facilitando a manutenção e reutilização.
+            </p>
+        </section>
+
+        <section id="encap">
+            <h2>Conceito de Encapsulamento</h2>
+            <p>
+                Encapsulamento é o princípio da orientação a objetos que consiste em ocultar os detalhes internos da implementação de um objeto, 
+                expondo apenas uma interface pública para interagir com ele. Isso significa proteger os dados internos para evitar acessos indevidos e manipulações incorretas.
+            </p>
+            <p>
+                Esse princípio promove a segurança e a integridade dos dados, além de facilitar a manutenção e evolução do sistema, já que mudanças internas não afetam outras partes do código.
+                Em linguagens orientadas a objetos, o encapsulamento é normalmente implementado por meio de modificadores de acesso, como <code>private</code>, <code>protected</code> e <code>public</code>.
+            </p>
+        </section>
+
+        <section id="heranca">
+            <h2>Conceito de Herança</h2>
+            <p>
+                Herança é um mecanismo que permite criar novas classes baseando-se em classes já existentes, herdando seus atributos e métodos. 
+                Isso promove o reuso de código, evitando a duplicação e facilitando a criação de hierarquias entre classes.
+            </p>
+            <p>
+                A classe que herda é chamada de subclasse ou classe derivada, enquanto a classe que é herdada é chamada de superclasse ou classe base. 
+                A subclasse pode adicionar novos atributos e métodos ou sobrescrever os existentes para especializar o comportamento herdado.
+            </p>
+            <p>
+                Por exemplo, uma classe "Veículo" pode ser a superclasse, enquanto as classes "Carro" e "Moto" seriam subclasses que herdam características gerais do veículo e definem comportamentos específicos.
+            </p>
+        </section>
+
+        <section id="poli">
+            <h2>Conceito de Polimorfismo</h2>
+            <p>
+                Polimorfismo é a capacidade que objetos de diferentes classes têm de responder de formas distintas à mesma mensagem (chamada de método), 
+                possibilitando que um mesmo código funcione com diferentes tipos de objetos de maneira flexível e extensível.
+            </p>
+            <p>
+                Existem dois tipos principais de polimorfismo: o polimorfismo em tempo de compilação (sobrecarga de métodos) e o polimorfismo em tempo de execução (sobrescrita de métodos).
+                O polimorfismo torna possível que métodos com o mesmo nome tenham comportamentos variados dependendo da classe do objeto que os executa.
+            </p>
+            <p>
+                Por exemplo, um método chamado <code>calcularArea()</code> pode ter implementações diferentes em classes como "Círculo", "Retângulo" e "Triângulo", calculando a área de cada figura conforme suas propriedades específicas.
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; Ana Carolina, André Valério, Isadora Côrtes e Kauan Mendes 3°02IPI 2025</p>
+    </footer>
+</body>
+</html>
